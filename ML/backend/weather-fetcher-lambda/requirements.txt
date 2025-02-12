@@ -1,0 +1,9 @@
+pandas
+requests
+protobuf
+gtfs-realtime-bindings
+python-dotenv
+boto3
+pyarrow
+fastparquet
+s3fs

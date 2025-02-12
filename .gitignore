@@ -1,0 +1,48 @@
+*.env
+**/.ipynb_checkpoints/
+.DS_Store
+*.db
+/data
+/logs
+ML/airflow-docker/logs/scheduler
+ML/backend/docker_commands.sh
+ML/notebooks/eda.ipynb
+**/*.parquet
+ML/data/gtfs_static/stop_times.txt
+
+/node_modules
+
+# Frontend
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+
+# frontend testing
+/frontend/coverage
+
+# frontend production
+/frontend/build
+
+# frontend misc
+/frontend/.DS_Store
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+
+#ML 
+ML/airflow-docker/
+ML/airflow_runs/
+ML/data/
+ML/old_notebooks/
+ML/old_env/
+
+ML/backend/translink-fetcher-lambda/testing_notebook.ipynb
+ML/experiments/efficient_transit_shapes.html
+ML/experiments/join_nearest_time.ipynb
+ML/research_papers/*

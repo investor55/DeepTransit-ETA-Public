@@ -1,0 +1,14 @@
+services:
+  weather-fetcher:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      # platforms:
+      #   - linux/amd64
+      #   - linux/arm64
+    volumes:
+      - ./data:/app/data
+      - .:/app
+    stdin_open: true  # Keep STDIN open
+    tty: true        # Allocate pseudo-TTY
+    entrypoint: /bin/bash
